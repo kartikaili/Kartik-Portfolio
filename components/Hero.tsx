@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, Mail, Linkedin, ChevronDown } from 'lucide-react';
+import { Mail, Linkedin, ChevronDown } from 'lucide-react';
 import { PROFILE } from '../constants';
 
 export const Hero: React.FC = () => {
@@ -50,14 +50,6 @@ export const Hero: React.FC = () => {
               <span className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></span>
               Available for new roles
             </div>
-            <a 
-              href="resume.pdf" 
-              download="Kartik_Aili_Resume.pdf"
-              className="flex items-center gap-2 cursor-pointer hover:text-primary-600 transition-colors"
-            >
-              <Download size={16} />
-              <span>Download Resume</span>
-            </a>
           </div>
         </div>
 
@@ -83,7 +75,7 @@ export const Hero: React.FC = () => {
                     />
                 </div>
                 
-                {/* Professional Floating Badges (Static/Subtle float instead of bounce) */}
+                {/* Professional Floating Badges */}
                 <div className="absolute -left-2 top-12 bg-white p-3 rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-slate-50 flex items-center gap-3 animate-float">
                     <div className="bg-green-50 p-2 rounded-lg text-green-600">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>

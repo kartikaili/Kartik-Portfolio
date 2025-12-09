@@ -9,14 +9,14 @@ import { Contact } from './components/Contact';
 function App() {
   return (
     <div className="min-h-screen">
-      <Navbar />
-      <main>
-        <Hero />
-        <Skills />
-        <Experience />
-        <Education />
-        <Contact />
-      </main>
+        <Navbar />
+        <main>
+          <Hero />
+          <Skills />
+          <Experience />
+          <Education />
+          <Contact />
+        </main>
     </div>
   );
 }

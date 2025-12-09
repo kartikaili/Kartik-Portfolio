@@ -25,7 +25,7 @@ export const PROFILE = {
   linkedin: "https://www.linkedin.com/in/kartik-aili",
   location: "India",
   summary: "Software Quality Engineer with 4+ years of experience in manual and automated testing, extending into API development and testing. Expert in Selenium, Java, and BDD frameworks, with hands-on experience in Java Spring Boot, REST APIs, and GraphQL. Seeking a Software Test Engineer position where I can bring my full-stack testing and collaboration skills to support your mission of delivering high-quality software solutions.",
-  avatar: "kartik-aili.png"
+  avatar: "https://ui-avatars.com/api/?name=Kartik+Eshwar+Aili&background=2563eb&color=fff&size=512"
 };
 
 export const SKILLS: Skill[] = [
@@ -48,7 +48,8 @@ export const SKILLS: Skill[] = [
     name: "REST API", 
     category: "Languages", 
     icon: Globe, 
-    level: 85 
+    level: 85,
+    logo: "https://www.vectorlogo.zone/logos/openapis/openapis-icon.svg"
   },
   { 
     name: "GraphQL", 
@@ -77,7 +78,8 @@ export const SKILLS: Skill[] = [
     name: "RestAssured", 
     category: "Automation", 
     icon: TestTube2, 
-    level: 90 
+    level: 90,
+    logo: "https://avatars.githubusercontent.com/u/19369327?s=200&v=4"
   },
   { 
     name: "Cucumber BDD", 
@@ -90,7 +92,8 @@ export const SKILLS: Skill[] = [
     name: "TestNG", 
     category: "Automation", 
     icon: CheckCircle2, 
-    level: 85 
+    level: 85,
+    logo: "https://avatars.githubusercontent.com/u/1594954?s=200&v=4"
   },
   
   // Tools
@@ -140,7 +143,8 @@ export const SKILLS: Skill[] = [
     name: "Deque Axe", 
     category: "Tools", 
     icon: CheckCircle2, 
-    level: 65 
+    level: 65,
+    logo: "https://avatars.githubusercontent.com/u/1085022?s=200&v=4"
   },
   
   // Soft Skills (No Logos usually, stick to icons)
