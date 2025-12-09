@@ -13,7 +13,7 @@ import {
   FileJson,
   Globe,
   Zap,
-  Search
+  Smartphone
 } from 'lucide-react';
 import { Job, Skill, Education, Certification, Achievement } from './types';
 
@@ -75,11 +75,18 @@ export const SKILLS: Skill[] = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
   },
   { 
+    name: "Appium", 
+    category: "Automation", 
+    icon: Smartphone, 
+    level: 80,
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/appium/appium-original.svg"
+  },
+  { 
     name: "RestAssured", 
     category: "Automation", 
     icon: TestTube2, 
     level: 90,
-    logo: "https://avatars.githubusercontent.com/u/19369327?s=200&v=4"
+    logo: "https://assets.gcore.pro/blog_containerizing_prod/uploads/2023/10/restassured-logo.png"
   },
   { 
     name: "Cucumber BDD", 
@@ -93,7 +100,7 @@ export const SKILLS: Skill[] = [
     category: "Automation", 
     icon: CheckCircle2, 
     level: 85,
-    logo: "https://avatars.githubusercontent.com/u/1594954?s=200&v=4"
+    logo: "https://testng.org/testng-logo.png"
   },
   
   // Tools
@@ -119,7 +126,7 @@ export const SKILLS: Skill[] = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg"
   },
   { 
-    name: "Git / SourceTree", 
+    name: "Git", 
     category: "Tools", 
     icon: GitBranch, 
     level: 80,
@@ -144,7 +151,7 @@ export const SKILLS: Skill[] = [
     category: "Tools", 
     icon: CheckCircle2, 
     level: 65,
-    logo: "https://avatars.githubusercontent.com/u/1085022?s=200&v=4"
+    logo: "https://www.deque.com/wp-content/uploads/2018/03/axe-logo-blue.svg"
   },
   
   // Soft Skills (No Logos usually, stick to icons)

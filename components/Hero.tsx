@@ -1,8 +1,12 @@
 import React from 'react';
-import { Mail, Linkedin, ChevronDown } from 'lucide-react';
+import { Mail, Linkedin, ChevronDown, FileText } from 'lucide-react';
 import { PROFILE } from '../constants';
 
-export const Hero: React.FC = () => {
+interface HeroProps {
+  onOpenResume: () => void;
+}
+
+export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-slate-50 pt-20">
       {/* Background Decorative Elements */}
@@ -27,13 +31,13 @@ export const Hero: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <a 
-              href={`mailto:${PROFILE.email}`}
-              className="px-8 py-3.5 bg-primary-600 text-white rounded-full font-semibold hover:bg-primary-700 transition-all shadow-lg hover:shadow-primary-500/30 flex items-center justify-center gap-2"
+            <button 
+              onClick={onOpenResume}
+              className="px-8 py-3.5 bg-primary-600 text-white rounded-full font-semibold hover:bg-primary-700 transition-all shadow-lg hover:shadow-primary-500/30 flex items-center justify-center gap-2 group"
             >
-              <Mail size={20} />
-              Contact Me
-            </a>
+              <FileText size={20} className="group-hover:scale-110 transition-transform" />
+              View Resume
+            </button>
             <a 
               href={PROFILE.linkedin}
               target="_blank"
